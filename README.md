@@ -26,13 +26,30 @@ g++ -o group_calculator main.cpp GroupCalculator.cpp
 ./group_calculator
 ```
 
-## Menu Options
+## Menu Options and Examples
 ```
-[1] add set
-[2] remove set
-[3] union
-[4] intersection
-[5] power set
-[6] print
-[0] exit
+[1] Add set
+Enter set name: A
+Enter elements: {1, 2, 3}
+Set A={1,2,3} added successfully.
+
+[2] Remove set
+Enter set name: A
+Set A removed successfully.
+
+[3] Union
+Enter first set: A
+Enter second set: B
+Enter result set: C
+Result: C={1,2,3,4,5}
+
+[4] Intersection
+Enter first set: A
+Enter second set: B
+Enter result set: D
+Result: D={2,3}
+
+[5] Power Set
+Enter set: A
+P(A)={{},{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}}
 ```
